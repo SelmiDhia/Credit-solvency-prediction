@@ -14,7 +14,7 @@ library(nnet)
 library(shinydashboard)
 library(shiny)
 #library(questionr)
-german_credit_dataset_Projet <- read_excel("C:/Users/azza/Downloads/german credit dataset_Projet(1).xlsx")
+german_credit_dataset_Projet <- read_excel("C:/Users/Dhia/Downloads/german credit dataset_Projet(1).xlsx")
 names(german_credit_dataset_Projet) <- c("balance_CurrentAccount","credit_Duration","credit_history",
                                          "motive","amount","savings","seniority","personal_status_and_gender",
                                          "guarantor_debtor","Residence_since","age","lodging","Total_credits",
